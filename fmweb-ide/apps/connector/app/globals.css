@@ -1,0 +1,22 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+  color: #22324a;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 36px 16px;
+}
+
+.card {
+  border: 1px solid #d4dde9;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 20px;
+}

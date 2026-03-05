@@ -1,0 +1,22 @@
+{
+  "name": "@fmweb/ide-web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev -p ${IDE_WEB_PORT:-3000}",
+    "build": "next build",
+    "start": "next start -p ${IDE_WEB_PORT:-3000}",
+    "lint": "eslint . --max-warnings 0",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@fmweb/shared": "workspace:*",
+    "@fmweb/ui": "workspace:*",
+    "jszip": "^3.10.1",
+    "next": "^15.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.3"
+  }
+}
